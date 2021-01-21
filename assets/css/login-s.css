@@ -19,21 +19,21 @@ body {
 }
 
 .title-box {
-  height: 60px;
-  background: url('../images/login_title.png') no-repeat center;
+    height: 60px;
+    background: url('../images/login_title.png') no-repeat center;
 }
 
 .reg-box {
-  display: none;
+    display: none;
 }
 
 .layui-form {
-  padding: 0 30px;
+    padding: 0 30px;
 }
 
 .links {
-  display: flex;
-  justify-content: flex-end;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .links a {
@@ -41,15 +41,18 @@ body {
 }
 
 .layui-form-item {
-  position: relative;
+    position:relative;
 }
 
 .layui-icon {
-  position: absolute;
-  left: 10px;
-  top: 10px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
 }
 
 .layui-input {
-  padding-left: 32px;
+    padding-left: 32px;
 }
+
+
+

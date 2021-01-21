@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>大事件-登录/注册</title>
     <!-- 导入 LayUI 的样式 -->
-    <link rel="stylesheet" href="/assets/lib/layui/css/layui.css" />
+    <link rel="stylesheet" href="./assets/lib/layui/css/layui.css" />
     <!-- 导入自己的样式表 -->
-    <link rel="stylesheet" href="/assets/css/login.css" />
+    <link rel="stylesheet" href="./assets/css/login.css" />
   </head>
   <body>
     <!-- 头部的 Logo 区域 -->
@@ -49,12 +49,12 @@
           <!-- 用户名 -->
           <div class="layui-form-item">
             <i class="layui-icon layui-icon-username"></i>
-            <input type="text" name="username" required lay-verify="required" placeholder="请输入用户名" autocomplete="off" class="layui-input" />
+            <input type="text" name="username" required lay-verify="required" placeholder="请输入用户名" autocomplete="off" class="layui-input" id = "reg-username"/>
           </div>
           <!-- 密码 -->
           <div class="layui-form-item">
             <i class="layui-icon layui-icon-password"></i>
-            <input type="password" name="password" required lay-verify="required|pwd" placeholder="请输入密码" autocomplete="off" class="layui-input" />
+            <input type="password" name="password" required lay-verify="required|pwd" placeholder="请输入密码" autocomplete="off" class="layui-input" id = "reg-password"/>
           </div>
           <!-- 密码确认框 -->
           <div class="layui-form-item">
