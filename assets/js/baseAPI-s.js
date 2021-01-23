@@ -1,5 +1,5 @@
 $.ajaxPrefilter(function(option){
-    console.log(option);
+    // console.log(option);
     option.url = "http://api-breakingnews-web.itheima.net/" + option.url
     if (option.url.indexOf('/my/') !== -1) {
         option.headers = {
